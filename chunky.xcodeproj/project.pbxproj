@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309771370C737BF1000A2BFC /* chunky.c in Sources */ = {isa = PBXBuildFile; fileRef = 309771360C737BF1000A2BFC /* chunky.c */; };
+		30D68AA6296B6992002B0CC1 /* libaudiofile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D68AA5296B6992002B0CC1 /* libaudiofile.dylib */; };
+		8DD76FB00486AB0100D96B5E /* chunky.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* chunky.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* chunky.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		309771360C737BF1000A2BFC /* chunky.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = chunky.c; sourceTree = "<group>"; };
+		30D68912296B6798002B0CC1 /* units.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = units.cpp; sourceTree = "<group>"; };
+		30D68913296B6798002B0CC1 /* Loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Loop.cpp; sourceTree = "<group>"; };
+		30D68914296B6798002B0CC1 /* PacketTable.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PacketTable.lo; sourceTree = "<group>"; };
+		30D68915296B6798002B0CC1 /* Miscellaneous.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Miscellaneous.cpp; sourceTree = "<group>"; };
+		30D68916296B6798002B0CC1 /* VOC.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = VOC.lo; sourceTree = "<group>"; };
+		30D68917296B6798002B0CC1 /* SampleVision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SampleVision.cpp; sourceTree = "<group>"; };
+		30D68918296B6798002B0CC1 /* AIFF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIFF.cpp; sourceTree = "<group>"; };
+		30D68919296B6798002B0CC1 /* error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = error.o; sourceTree = "<group>"; };
+		30D6891A296B6798002B0CC1 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		30D6891B296B6798002B0CC1 /* Instrument.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instrument.cpp; sourceTree = "<group>"; };
+		30D6891C296B6798002B0CC1 /* NeXT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NeXT.cpp; sourceTree = "<group>"; };
+		30D6891D296B6798002B0CC1 /* aupv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = aupv.o; sourceTree = "<group>"; };
+		30D6891E296B6798002B0CC1 /* Instrument.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Instrument.lo; sourceTree = "<group>"; };
+		30D6891F296B6798002B0CC1 /* AIFF.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AIFF.lo; sourceTree = "<group>"; };
+		30D68920296B6798002B0CC1 /* query.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = query.cpp; sourceTree = "<group>"; };
+		30D68921296B6798002B0CC1 /* af_vfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = af_vfs.h; sourceTree = "<group>"; };
+		30D68922296B6798002B0CC1 /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		30D68923296B6798002B0CC1 /* af_vfs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = af_vfs.o; sourceTree = "<group>"; };
+		30D68924296B6798002B0CC1 /* Setup.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Setup.o; sourceTree = "<group>"; };
+		30D68925296B6798002B0CC1 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		30D68926296B6798002B0CC1 /* Setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Setup.h; sourceTree = "<group>"; };
+		30D68927296B6798002B0CC1 /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		30D68928296B6798002B0CC1 /* debug.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = debug.o; sourceTree = "<group>"; };
+		30D68929296B6798002B0CC1 /* AVR.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AVR.o; sourceTree = "<group>"; };
+		30D6892A296B6798002B0CC1 /* FLACFile.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FLACFile.lo; sourceTree = "<group>"; };
+		30D6892B296B6798002B0CC1 /* AVR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVR.h; sourceTree = "<group>"; };
+		30D6892C296B6798002B0CC1 /* Marker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Marker.cpp; sourceTree = "<group>"; };
+		30D6892D296B6798002B0CC1 /* openclose.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = openclose.lo; sourceTree = "<group>"; };
+		30D6892E296B6798002B0CC1 /* Tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		30D6892F296B6798002B0CC1 /* UUID.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = UUID.lo; sourceTree = "<group>"; };
+		30D68930296B6798002B0CC1 /* Compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Compiler.h; sourceTree = "<group>"; };
+		30D68931296B6798002B0CC1 /* format.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = format.cpp; sourceTree = "<group>"; };
+		30D68932296B6798002B0CC1 /* AIFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIFF.h; sourceTree = "<group>"; };
+		30D68933296B6798002B0CC1 /* query.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = query.o; sourceTree = "<group>"; };
+		30D68934296B6798002B0CC1 /* AIFF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AIFF.o; sourceTree = "<group>"; };
+		30D68935296B6798002B0CC1 /* byteorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = byteorder.h; sourceTree = "<group>"; };
+		30D68936296B6798002B0CC1 /* data.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.lo; sourceTree = "<group>"; };
+		30D68937296B6798002B0CC1 /* UUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		30D68938296B6798002B0CC1 /* UUID.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = UUID.o; sourceTree = "<group>"; };
+		30D68939296B6798002B0CC1 /* aupvinternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aupvinternal.h; sourceTree = "<group>"; };
+		30D6893A296B6798002B0CC1 /* Features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Features.h; sourceTree = "<group>"; };
+		30D6893B296B6798002B0CC1 /* NeXT.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = NeXT.lo; sourceTree = "<group>"; };
+		30D6893C296B6798002B0CC1 /* aupv.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = aupv.lo; sourceTree = "<group>"; };
+		30D6893D296B6798002B0CC1 /* data.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = data.o; sourceTree = "<group>"; };
+		30D6893E296B6798002B0CC1 /* NIST.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NIST.o; sourceTree = "<group>"; };
+		30D6893F296B6798002B0CC1 /* WAVE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WAVE.cpp; sourceTree = "<group>"; };
+		30D68940296B6798002B0CC1 /* Marker.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Marker.lo; sourceTree = "<group>"; };
+		30D68941296B6798002B0CC1 /* NIST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIST.h; sourceTree = "<group>"; };
+		30D68942296B6798002B0CC1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		30D68943296B6798002B0CC1 /* File.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = File.o; sourceTree = "<group>"; };
+		30D68944296B6798002B0CC1 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		30D68945296B6798002B0CC1 /* g711.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = g711.c; sourceTree = "<group>"; };
+		30D68946296B6798002B0CC1 /* extended.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = extended.c; sourceTree = "<group>"; };
+		30D68947296B6798002B0CC1 /* File.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.lo; sourceTree = "<group>"; };
+		30D68948296B6798002B0CC1 /* Setup.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Setup.lo; sourceTree = "<group>"; };
+		30D68949296B6798002B0CC1 /* Marker.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Marker.o; sourceTree = "<group>"; };
+		30D6894A296B6798002B0CC1 /* Marker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		30D6894B296B6798002B0CC1 /* Setup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Setup.cpp; sourceTree = "<group>"; };
+		30D6894C296B6798002B0CC1 /* FLACFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FLACFile.cpp; sourceTree = "<group>"; };
+		30D6894D296B6798002B0CC1 /* debug.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug.lo; sourceTree = "<group>"; };
+		30D6894E296B6798002B0CC1 /* IRCAM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IRCAM.cpp; sourceTree = "<group>"; };
+		30D6894F296B6798002B0CC1 /* Buffer.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Buffer.lo; sourceTree = "<group>"; };
+		30D68950296B6798002B0CC1 /* Instrument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Instrument.h; sourceTree = "<group>"; };
+		30D68951296B6798002B0CC1 /* Instrument.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Instrument.o; sourceTree = "<group>"; };
+		30D68952296B6798002B0CC1 /* FileHandle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FileHandle.o; sourceTree = "<group>"; };
+		30D68953296B6798002B0CC1 /* IRCAM.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IRCAM.lo; sourceTree = "<group>"; };
+		30D68954296B6798002B0CC1 /* FileHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHandle.h; sourceTree = "<group>"; };
+		30D68956296B6798002B0CC1 /* EndianPortable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = EndianPortable.c; sourceTree = "<group>"; };
+		30D68957296B6798002B0CC1 /* ag_dec.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ag_dec.lo; sourceTree = "<group>"; };
+		30D68958296B6798002B0CC1 /* ALACBitUtilities.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ALACBitUtilities.c; sourceTree = "<group>"; };
+		30D68959296B6798002B0CC1 /* EndianPortable.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = EndianPortable.lo; sourceTree = "<group>"; };
+		30D6895A296B6798002B0CC1 /* dp_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dp_dec.o; sourceTree = "<group>"; };
+		30D6895B296B6798002B0CC1 /* dplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dplib.h; sourceTree = "<group>"; };
+		30D6895C296B6798002B0CC1 /* ag_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ag_dec.o; sourceTree = "<group>"; };
+		30D6895D296B6798002B0CC1 /* matrix_enc.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix_enc.lo; sourceTree = "<group>"; };
+		30D6895E296B6798002B0CC1 /* matrix_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix_dec.c; sourceTree = "<group>"; };
+		30D6895F296B6798002B0CC1 /* ALACDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALACDecoder.cpp; sourceTree = "<group>"; };
+		30D68960296B6798002B0CC1 /* ag_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ag_enc.o; sourceTree = "<group>"; };
+		30D68961296B6798002B0CC1 /* matrix_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix_enc.c; sourceTree = "<group>"; };
+		30D68962296B6798002B0CC1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		30D68963296B6798002B0CC1 /* dp_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dp_enc.o; sourceTree = "<group>"; };
+		30D68964296B6798002B0CC1 /* dp_dec.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dp_dec.lo; sourceTree = "<group>"; };
+		30D68965296B6798002B0CC1 /* ALACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALACEncoder.h; sourceTree = "<group>"; };
+		30D68966296B6798002B0CC1 /* ALACEncoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACEncoder.o; sourceTree = "<group>"; };
+		30D68967296B6798002B0CC1 /* ALACEncoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALACEncoder.cpp; sourceTree = "<group>"; };
+		30D68968296B6798002B0CC1 /* ALACBitUtilities.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACBitUtilities.o; sourceTree = "<group>"; };
+		30D68969296B6798002B0CC1 /* ALACBitUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALACBitUtilities.h; sourceTree = "<group>"; };
+		30D6896A296B6798002B0CC1 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		30D6896B296B6798002B0CC1 /* ALACEncoder.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACEncoder.lo; sourceTree = "<group>"; };
+		30D6896C296B6798002B0CC1 /* aglib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aglib.h; sourceTree = "<group>"; };
+		30D6896D296B6798002B0CC1 /* EndianPortable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EndianPortable.h; sourceTree = "<group>"; };
+		30D6896E296B6798002B0CC1 /* EndianPortable.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = EndianPortable.o; sourceTree = "<group>"; };
+		30D6896F296B6798002B0CC1 /* ag_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ag_dec.c; sourceTree = "<group>"; };
+		30D68970296B6798002B0CC1 /* matrix_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = matrix_dec.o; sourceTree = "<group>"; };
+		30D68971296B6798002B0CC1 /* dp_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dp_dec.c; sourceTree = "<group>"; };
+		30D68972296B6798002B0CC1 /* ALACDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALACDecoder.h; sourceTree = "<group>"; };
+		30D68973296B6798002B0CC1 /* ALACDecoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACDecoder.o; sourceTree = "<group>"; };
+		30D68974296B6798002B0CC1 /* dp_enc.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dp_enc.lo; sourceTree = "<group>"; };
+		30D68975296B6798002B0CC1 /* ALACAudioTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALACAudioTypes.h; sourceTree = "<group>"; };
+		30D68976296B6798002B0CC1 /* dp_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dp_enc.c; sourceTree = "<group>"; };
+		30D68977296B6798002B0CC1 /* ag_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ag_enc.c; sourceTree = "<group>"; };
+		30D68978296B6798002B0CC1 /* matrix_dec.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix_dec.lo; sourceTree = "<group>"; };
+		30D68979296B6798002B0CC1 /* matrix_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = matrix_enc.o; sourceTree = "<group>"; };
+		30D6897B296B6798002B0CC1 /* ALACBitUtilities.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACBitUtilities.Plo; sourceTree = "<group>"; };
+		30D6897C296B6798002B0CC1 /* ALACDecoder.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACDecoder.Plo; sourceTree = "<group>"; };
+		30D6897D296B6798002B0CC1 /* dp_dec.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dp_dec.Plo; sourceTree = "<group>"; };
+		30D6897E296B6798002B0CC1 /* dp_enc.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dp_enc.Plo; sourceTree = "<group>"; };
+		30D6897F296B6798002B0CC1 /* ALACEncoder.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACEncoder.Plo; sourceTree = "<group>"; };
+		30D68980296B6798002B0CC1 /* EndianPortable.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = EndianPortable.Plo; sourceTree = "<group>"; };
+		30D68981296B6798002B0CC1 /* ag_enc.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ag_enc.Plo; sourceTree = "<group>"; };
+		30D68982296B6798002B0CC1 /* ag_dec.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ag_dec.Plo; sourceTree = "<group>"; };
+		30D68983296B6798002B0CC1 /* matrix_dec.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix_dec.Plo; sourceTree = "<group>"; };
+		30D68984296B6798002B0CC1 /* matrix_enc.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix_enc.Plo; sourceTree = "<group>"; };
+		30D68985296B6798002B0CC1 /* matrixlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixlib.h; sourceTree = "<group>"; };
+		30D68986296B6798002B0CC1 /* libalac.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libalac.la; sourceTree = "<group>"; };
+		30D68988296B6798002B0CC1 /* dp_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dp_dec.o; sourceTree = "<group>"; };
+		30D68989296B6798002B0CC1 /* ag_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ag_dec.o; sourceTree = "<group>"; };
+		30D6898A296B6798002B0CC1 /* ag_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ag_enc.o; sourceTree = "<group>"; };
+		30D6898B296B6798002B0CC1 /* libalac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libalac.a; sourceTree = "<group>"; };
+		30D6898C296B6798002B0CC1 /* dp_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dp_enc.o; sourceTree = "<group>"; };
+		30D6898D296B6798002B0CC1 /* ALACEncoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACEncoder.o; sourceTree = "<group>"; };
+		30D6898E296B6798002B0CC1 /* ALACBitUtilities.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACBitUtilities.o; sourceTree = "<group>"; };
+		30D6898F296B6798002B0CC1 /* EndianPortable.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = EndianPortable.o; sourceTree = "<group>"; };
+		30D68990296B6798002B0CC1 /* matrix_dec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = matrix_dec.o; sourceTree = "<group>"; };
+		30D68991296B6798002B0CC1 /* ALACDecoder.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALACDecoder.o; sourceTree = "<group>"; };
+		30D68992296B6798002B0CC1 /* matrix_enc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = matrix_enc.o; sourceTree = "<group>"; };
+		30D68993296B6798002B0CC1 /* libalac.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libalac.la; sourceTree = "<group>"; };
+		30D68994296B6798002B0CC1 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		30D68995296B6798002B0CC1 /* ag_enc.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ag_enc.lo; sourceTree = "<group>"; };
+		30D68996296B6798002B0CC1 /* ALACBitUtilities.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACBitUtilities.lo; sourceTree = "<group>"; };
+		30D68997296B6798002B0CC1 /* ALACDecoder.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALACDecoder.lo; sourceTree = "<group>"; };
+		30D68998296B6798002B0CC1 /* VOC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VOC.cpp; sourceTree = "<group>"; };
+		30D68999296B6798002B0CC1 /* Loop.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loop.lo; sourceTree = "<group>"; };
+		30D6899A296B6798002B0CC1 /* compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compression.h; sourceTree = "<group>"; };
+		30D6899B296B6798002B0CC1 /* Miscellaneous.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Miscellaneous.lo; sourceTree = "<group>"; };
+		30D6899C296B6798002B0CC1 /* openclose.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = openclose.o; sourceTree = "<group>"; };
+		30D6899D296B6798002B0CC1 /* compression.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = compression.o; sourceTree = "<group>"; };
+		30D6899E296B6798002B0CC1 /* data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = data.cpp; sourceTree = "<group>"; };
+		30D6899F296B6798002B0CC1 /* af_vfs.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = af_vfs.lo; sourceTree = "<group>"; };
+		30D689A0296B6798002B0CC1 /* Buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Buffer.cpp; sourceTree = "<group>"; };
+		30D689A1296B6798002B0CC1 /* VOC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = VOC.o; sourceTree = "<group>"; };
+		30D689A2296B6798002B0CC1 /* compression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compression.cpp; sourceTree = "<group>"; };
+		30D689A3296B6798002B0CC1 /* CAF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CAF.cpp; sourceTree = "<group>"; };
+		30D689A4296B6798002B0CC1 /* VOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOC.h; sourceTree = "<group>"; };
+		30D689A5296B6798002B0CC1 /* AVR.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVR.lo; sourceTree = "<group>"; };
+		30D689A6296B6798002B0CC1 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		30D689A7296B6798002B0CC1 /* UUID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UUID.cpp; sourceTree = "<group>"; };
+		30D689A8296B6798002B0CC1 /* Track.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Track.lo; sourceTree = "<group>"; };
+		30D689A9296B6798002B0CC1 /* extended.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = extended.lo; sourceTree = "<group>"; };
+		30D689AA296B6798002B0CC1 /* util.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = util.lo; sourceTree = "<group>"; };
+		30D689AB296B6798002B0CC1 /* Raw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Raw.cpp; sourceTree = "<group>"; };
+		30D689AC296B6798002B0CC1 /* Miscellaneous.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Miscellaneous.o; sourceTree = "<group>"; };
+		30D689AD296B6798002B0CC1 /* aupv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aupv.c; sourceTree = "<group>"; };
+		30D689AE296B6798002B0CC1 /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		30D689AF296B6798002B0CC1 /* Buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Buffer.h; sourceTree = "<group>"; };
+		30D689B0296B6798002B0CC1 /* Track.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Track.o; sourceTree = "<group>"; };
+		30D689B1296B6798002B0CC1 /* Buffer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Buffer.o; sourceTree = "<group>"; };
+		30D689B2296B6798002B0CC1 /* aes.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = aes.lo; sourceTree = "<group>"; };
+		30D689B3296B6798002B0CC1 /* compression.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = compression.lo; sourceTree = "<group>"; };
+		30D689B4296B6798002B0CC1 /* NIST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NIST.cpp; sourceTree = "<group>"; };
+		30D689B5296B6798002B0CC1 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		30D689B6296B6798002B0CC1 /* g711.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = g711.lo; sourceTree = "<group>"; };
+		30D689B7296B6798002B0CC1 /* libaudiofile.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libaudiofile.la; sourceTree = "<group>"; };
+		30D689B8296B6798002B0CC1 /* error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		30D689B9296B6798002B0CC1 /* aes.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = aes.o; sourceTree = "<group>"; };
+		30D689BA296B6798002B0CC1 /* SampleVision.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleVision.lo; sourceTree = "<group>"; };
+		30D689BB296B6798002B0CC1 /* aupvlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aupvlist.h; sourceTree = "<group>"; };
+		30D689BC296B6798002B0CC1 /* libaudiofile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = libaudiofile.xcodeproj; sourceTree = "<group>"; };
+		30D689BF296B6798002B0CC1 /* openclose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = openclose.cpp; sourceTree = "<group>"; };
+		30D689C0296B6798002B0CC1 /* FileHandle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileHandle.cpp; sourceTree = "<group>"; };
+		30D689C1296B6798002B0CC1 /* pcm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pcm.cpp; sourceTree = "<group>"; };
+		30D689C2296B6798002B0CC1 /* debug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		30D689C3296B6798002B0CC1 /* IFF.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IFF.lo; sourceTree = "<group>"; };
+		30D689C4296B6798002B0CC1 /* Loop.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Loop.o; sourceTree = "<group>"; };
+		30D689C5296B6798002B0CC1 /* Raw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Raw.h; sourceTree = "<group>"; };
+		30D689C6296B6798002B0CC1 /* format.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = format.lo; sourceTree = "<group>"; };
+		30D689C7296B6798002B0CC1 /* Raw.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Raw.o; sourceTree = "<group>"; };
+		30D689C8296B6798002B0CC1 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		30D689C9296B6798002B0CC1 /* AVR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVR.cpp; sourceTree = "<group>"; };
+		30D689CA296B6798002B0CC1 /* util.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = util.o; sourceTree = "<group>"; };
+		30D689CB296B6798002B0CC1 /* audiofile.exports */ = {isa = PBXFileReference; lastKnownFileType = text; path = audiofile.exports; sourceTree = "<group>"; };
+		30D689CC296B6798002B0CC1 /* Track.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Track.cpp; sourceTree = "<group>"; };
+		30D689CD296B6798002B0CC1 /* pcm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pcm.h; sourceTree = "<group>"; };
+		30D689CE296B6798002B0CC1 /* pcm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcm.o; sourceTree = "<group>"; };
+		30D689CF296B6798002B0CC1 /* NeXT.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NeXT.o; sourceTree = "<group>"; };
+		30D689D0296B6798002B0CC1 /* CAF.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = CAF.lo; sourceTree = "<group>"; };
+		30D689D1296B6798002B0CC1 /* NeXT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeXT.h; sourceTree = "<group>"; };
+		30D689D2296B6798002B0CC1 /* g711.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = g711.h; sourceTree = "<group>"; };
+		30D689D3296B6798002B0CC1 /* g711.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = g711.o; sourceTree = "<group>"; };
+		30D689D4296B6798002B0CC1 /* IFF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IFF.cpp; sourceTree = "<group>"; };
+		30D689D5296B6798002B0CC1 /* IFF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IFF.o; sourceTree = "<group>"; };
+		30D689D6296B6798002B0CC1 /* extended.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = extended.o; sourceTree = "<group>"; };
+		30D689D7296B6798002B0CC1 /* AudioFormat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AudioFormat.o; sourceTree = "<group>"; };
+		30D689D8296B6798002B0CC1 /* IFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFF.h; sourceTree = "<group>"; };
+		30D689D9296B6798002B0CC1 /* PacketTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PacketTable.cpp; sourceTree = "<group>"; };
+		30D689DA296B6798002B0CC1 /* AudioFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioFormat.h; sourceTree = "<group>"; };
+		30D689DB296B6798002B0CC1 /* extended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = extended.h; sourceTree = "<group>"; };
+		30D689DC296B6798002B0CC1 /* FileHandle.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FileHandle.lo; sourceTree = "<group>"; };
+		30D689DD296B6798002B0CC1 /* WAVE.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = WAVE.o; sourceTree = "<group>"; };
+		30D689DE296B6798002B0CC1 /* WAVE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAVE.h; sourceTree = "<group>"; };
+		30D689DF296B6798002B0CC1 /* AudioFormat.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioFormat.lo; sourceTree = "<group>"; };
+		30D689E0296B6798002B0CC1 /* format.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = format.o; sourceTree = "<group>"; };
+		30D689E2296B6798002B0CC1 /* Module.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Module.lo; sourceTree = "<group>"; };
+		30D689E3296B6798002B0CC1 /* RebufferModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RebufferModule.h; sourceTree = "<group>"; };
+		30D689E4296B6798002B0CC1 /* RebufferModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = RebufferModule.o; sourceTree = "<group>"; };
+		30D689E5296B6798002B0CC1 /* ModuleState.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ModuleState.lo; sourceTree = "<group>"; };
+		30D689E6296B6798002B0CC1 /* ModuleState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleState.h; sourceTree = "<group>"; };
+		30D689E7296B6798002B0CC1 /* ModuleState.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ModuleState.o; sourceTree = "<group>"; };
+		30D689E8296B6798002B0CC1 /* G711.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = G711.cpp; sourceTree = "<group>"; };
+		30D689E9296B6798002B0CC1 /* ModuleState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModuleState.cpp; sourceTree = "<group>"; };
+		30D689EA296B6798002B0CC1 /* FileModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileModule.h; sourceTree = "<group>"; };
+		30D689EB296B6798002B0CC1 /* FileModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FileModule.o; sourceTree = "<group>"; };
+		30D689EC296B6798002B0CC1 /* SimpleModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleModule.cpp; sourceTree = "<group>"; };
+		30D689ED296B6798002B0CC1 /* MSADPCM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MSADPCM.cpp; sourceTree = "<group>"; };
+		30D689EE296B6798002B0CC1 /* ALAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAC.h; sourceTree = "<group>"; };
+		30D689EF296B6798002B0CC1 /* ALAC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALAC.o; sourceTree = "<group>"; };
+		30D689F0296B6798002B0CC1 /* UT_RebufferModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UT_RebufferModule.cpp; sourceTree = "<group>"; };
+		30D689F1296B6798002B0CC1 /* ALAC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALAC.cpp; sourceTree = "<group>"; };
+		30D689F2296B6798002B0CC1 /* Module.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Module.cpp; sourceTree = "<group>"; };
+		30D689F3296B6798002B0CC1 /* FLAC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FLAC.o; sourceTree = "<group>"; };
+		30D689F4296B6798002B0CC1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		30D689F5296B6798002B0CC1 /* FLAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAC.h; sourceTree = "<group>"; };
+		30D689F6296B6798002B0CC1 /* BlockCodec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BlockCodec.cpp; sourceTree = "<group>"; };
+		30D689F7296B6798002B0CC1 /* RebufferModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RebufferModule.cpp; sourceTree = "<group>"; };
+		30D689F8296B6798002B0CC1 /* FileModule.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FileModule.lo; sourceTree = "<group>"; };
+		30D689F9296B6798002B0CC1 /* MSADPCM.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSADPCM.lo; sourceTree = "<group>"; };
+		30D689FA296B6798002B0CC1 /* FileModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileModule.cpp; sourceTree = "<group>"; };
+		30D689FB296B6798002B0CC1 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		30D689FC296B6798002B0CC1 /* IMA.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IMA.lo; sourceTree = "<group>"; };
+		30D689FD296B6798002B0CC1 /* G711.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = G711.lo; sourceTree = "<group>"; };
+		30D689FE296B6798002B0CC1 /* IMA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IMA.cpp; sourceTree = "<group>"; };
+		30D689FF296B6798002B0CC1 /* libmodules.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libmodules.la; sourceTree = "<group>"; };
+		30D68A00296B6798002B0CC1 /* PCM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PCM.cpp; sourceTree = "<group>"; };
+		30D68A01296B6798002B0CC1 /* MSADPCM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MSADPCM.o; sourceTree = "<group>"; };
+		30D68A02296B6798002B0CC1 /* MSADPCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSADPCM.h; sourceTree = "<group>"; };
+		30D68A03296B6798002B0CC1 /* ALAC.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALAC.lo; sourceTree = "<group>"; };
+		30D68A04296B6798002B0CC1 /* RebufferModule.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = RebufferModule.lo; sourceTree = "<group>"; };
+		30D68A05296B6798002B0CC1 /* BlockCodec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = BlockCodec.o; sourceTree = "<group>"; };
+		30D68A06296B6798002B0CC1 /* BlockCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockCodec.h; sourceTree = "<group>"; };
+		30D68A07296B6798002B0CC1 /* PCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCM.h; sourceTree = "<group>"; };
+		30D68A08296B6798002B0CC1 /* PCM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = PCM.o; sourceTree = "<group>"; };
+		30D68A09296B6798002B0CC1 /* FLAC.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FLAC.lo; sourceTree = "<group>"; };
+		30D68A0A296B6798002B0CC1 /* G711.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G711.h; sourceTree = "<group>"; };
+		30D68A0B296B6798002B0CC1 /* G711.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = G711.o; sourceTree = "<group>"; };
+		30D68A0C296B6798002B0CC1 /* SimpleModule.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleModule.lo; sourceTree = "<group>"; };
+		30D68A0D296B6798002B0CC1 /* Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
+		30D68A0E296B6798002B0CC1 /* Module.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Module.o; sourceTree = "<group>"; };
+		30D68A10296B6798002B0CC1 /* ALAC.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ALAC.Plo; sourceTree = "<group>"; };
+		30D68A11296B6798002B0CC1 /* SimpleModule.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleModule.Plo; sourceTree = "<group>"; };
+		30D68A12296B6798002B0CC1 /* MSADPCM.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSADPCM.Plo; sourceTree = "<group>"; };
+		30D68A13296B6798002B0CC1 /* G711.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = G711.Plo; sourceTree = "<group>"; };
+		30D68A14296B6798002B0CC1 /* ModuleState.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ModuleState.Plo; sourceTree = "<group>"; };
+		30D68A15296B6798002B0CC1 /* FileModule.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FileModule.Plo; sourceTree = "<group>"; };
+		30D68A16296B6798002B0CC1 /* RebufferModule.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = RebufferModule.Plo; sourceTree = "<group>"; };
+		30D68A17296B6798002B0CC1 /* BlockCodec.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = BlockCodec.Plo; sourceTree = "<group>"; };
+		30D68A18296B6798002B0CC1 /* Module.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Module.Plo; sourceTree = "<group>"; };
+		30D68A19296B6798002B0CC1 /* PCM.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PCM.Plo; sourceTree = "<group>"; };
+		30D68A1A296B6798002B0CC1 /* IMA.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IMA.Plo; sourceTree = "<group>"; };
+		30D68A1B296B6798002B0CC1 /* FLAC.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FLAC.Plo; sourceTree = "<group>"; };
+		30D68A1D296B6798002B0CC1 /* RebufferModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = RebufferModule.o; sourceTree = "<group>"; };
+		30D68A1E296B6798002B0CC1 /* ModuleState.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ModuleState.o; sourceTree = "<group>"; };
+		30D68A1F296B6798002B0CC1 /* FileModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FileModule.o; sourceTree = "<group>"; };
+		30D68A20296B6798002B0CC1 /* ALAC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ALAC.o; sourceTree = "<group>"; };
+		30D68A21296B6798002B0CC1 /* FLAC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FLAC.o; sourceTree = "<group>"; };
+		30D68A22296B6798002B0CC1 /* libmodules.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libmodules.la; sourceTree = "<group>"; };
+		30D68A23296B6798002B0CC1 /* MSADPCM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = MSADPCM.o; sourceTree = "<group>"; };
+		30D68A24296B6798002B0CC1 /* BlockCodec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = BlockCodec.o; sourceTree = "<group>"; };
+		30D68A25296B6798002B0CC1 /* libmodules.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmodules.a; sourceTree = "<group>"; };
+		30D68A26296B6798002B0CC1 /* PCM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = PCM.o; sourceTree = "<group>"; };
+		30D68A27296B6798002B0CC1 /* G711.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = G711.o; sourceTree = "<group>"; };
+		30D68A28296B6798002B0CC1 /* Module.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Module.o; sourceTree = "<group>"; };
+		30D68A29296B6798002B0CC1 /* IMA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IMA.o; sourceTree = "<group>"; };
+		30D68A2A296B6798002B0CC1 /* SimpleModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = SimpleModule.o; sourceTree = "<group>"; };
+		30D68A2B296B6798002B0CC1 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		30D68A2C296B6798002B0CC1 /* IMA.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IMA.o; sourceTree = "<group>"; };
+		30D68A2D296B6798002B0CC1 /* BlockCodec.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = BlockCodec.lo; sourceTree = "<group>"; };
+		30D68A2E296B6798002B0CC1 /* IMA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMA.h; sourceTree = "<group>"; };
+		30D68A2F296B6798002B0CC1 /* SimpleModule.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = SimpleModule.o; sourceTree = "<group>"; };
+		30D68A30296B6798002B0CC1 /* SimpleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleModule.h; sourceTree = "<group>"; };
+		30D68A31296B6798002B0CC1 /* PCM.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PCM.lo; sourceTree = "<group>"; };
+		30D68A32296B6798002B0CC1 /* FLAC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FLAC.cpp; sourceTree = "<group>"; };
+		30D68A34296B6798002B0CC1 /* format.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = format.Plo; sourceTree = "<group>"; };
+		30D68A35296B6798002B0CC1 /* Marker.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Marker.Plo; sourceTree = "<group>"; };
+		30D68A36296B6798002B0CC1 /* extended.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = extended.Plo; sourceTree = "<group>"; };
+		30D68A37296B6798002B0CC1 /* Instrument.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Instrument.Plo; sourceTree = "<group>"; };
+		30D68A38296B6798002B0CC1 /* SampleVision.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleVision.Plo; sourceTree = "<group>"; };
+		30D68A39296B6798002B0CC1 /* AIFF.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AIFF.Plo; sourceTree = "<group>"; };
+		30D68A3A296B6798002B0CC1 /* units.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = units.Plo; sourceTree = "<group>"; };
+		30D68A3B296B6798002B0CC1 /* Loop.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loop.Plo; sourceTree = "<group>"; };
+		30D68A3C296B6798002B0CC1 /* Miscellaneous.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Miscellaneous.Plo; sourceTree = "<group>"; };
+		30D68A3D296B6798002B0CC1 /* util.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = util.Plo; sourceTree = "<group>"; };
+		30D68A3E296B6798002B0CC1 /* query.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = query.Plo; sourceTree = "<group>"; };
+		30D68A3F296B6798002B0CC1 /* g711.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = g711.Plo; sourceTree = "<group>"; };
+		30D68A40296B6798002B0CC1 /* NeXT.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = NeXT.Plo; sourceTree = "<group>"; };
+		30D68A41296B6798002B0CC1 /* UnitTests-UT_RebufferModule.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = "UnitTests-UT_RebufferModule.Po"; sourceTree = "<group>"; };
+		30D68A42296B6798002B0CC1 /* FLACFile.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FLACFile.Plo; sourceTree = "<group>"; };
+		30D68A43296B6798002B0CC1 /* IRCAM.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IRCAM.Plo; sourceTree = "<group>"; };
+		30D68A44296B6798002B0CC1 /* Setup.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Setup.Plo; sourceTree = "<group>"; };
+		30D68A45296B6798002B0CC1 /* compression.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = compression.Plo; sourceTree = "<group>"; };
+		30D68A46296B6798002B0CC1 /* CAF.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = CAF.Plo; sourceTree = "<group>"; };
+		30D68A47296B6798002B0CC1 /* data.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.Plo; sourceTree = "<group>"; };
+		30D68A48296B6798002B0CC1 /* Buffer.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Buffer.Plo; sourceTree = "<group>"; };
+		30D68A49296B6798002B0CC1 /* VOC.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = VOC.Plo; sourceTree = "<group>"; };
+		30D68A4A296B6798002B0CC1 /* WAVE.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = WAVE.Plo; sourceTree = "<group>"; };
+		30D68A4B296B6798002B0CC1 /* error.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = error.Plo; sourceTree = "<group>"; };
+		30D68A4C296B6798002B0CC1 /* openclose.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = openclose.Plo; sourceTree = "<group>"; };
+		30D68A4D296B6798002B0CC1 /* FileHandle.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = FileHandle.Plo; sourceTree = "<group>"; };
+		30D68A4E296B6798002B0CC1 /* debug.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = debug.Plo; sourceTree = "<group>"; };
+		30D68A4F296B6798002B0CC1 /* pcm.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pcm.Plo; sourceTree = "<group>"; };
+		30D68A50296B6798002B0CC1 /* aupv.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = aupv.Plo; sourceTree = "<group>"; };
+		30D68A51296B6798002B0CC1 /* Track.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Track.Plo; sourceTree = "<group>"; };
+		30D68A52296B6798002B0CC1 /* AVR.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AVR.Plo; sourceTree = "<group>"; };
+		30D68A53296B6798002B0CC1 /* Raw.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Raw.Plo; sourceTree = "<group>"; };
+		30D68A54296B6798002B0CC1 /* UUID.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = UUID.Plo; sourceTree = "<group>"; };
+		30D68A55296B6798002B0CC1 /* File.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.Plo; sourceTree = "<group>"; };
+		30D68A56296B6798002B0CC1 /* NIST.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = NIST.Plo; sourceTree = "<group>"; };
+		30D68A57296B6798002B0CC1 /* AudioFormat.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioFormat.Plo; sourceTree = "<group>"; };
+		30D68A58296B6798002B0CC1 /* aes.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = aes.Plo; sourceTree = "<group>"; };
+		30D68A59296B6798002B0CC1 /* af_vfs.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = af_vfs.Plo; sourceTree = "<group>"; };
+		30D68A5A296B6798002B0CC1 /* PacketTable.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PacketTable.Plo; sourceTree = "<group>"; };
+		30D68A5B296B6798002B0CC1 /* IFF.Plo */ = {isa = PBXFileReference; lastKnownFileType = text; path = IFF.Plo; sourceTree = "<group>"; };
+		30D68A5C296B6798002B0CC1 /* SampleVision.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = SampleVision.o; sourceTree = "<group>"; };
+		30D68A5D296B6798002B0CC1 /* SampleVision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleVision.h; sourceTree = "<group>"; };
+		30D68A5E296B6798002B0CC1 /* aes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = aes.cpp; sourceTree = "<group>"; };
+		30D68A5F296B6798002B0CC1 /* afinternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = afinternal.h; sourceTree = "<group>"; };
+		30D68A61296B6798002B0CC1 /* libaudiofile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libaudiofile.a; sourceTree = "<group>"; };
+		30D68A62296B6798002B0CC1 /* error.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = error.o; sourceTree = "<group>"; };
+		30D68A63296B6798002B0CC1 /* aupv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = aupv.o; sourceTree = "<group>"; };
+		30D68A64296B6798002B0CC1 /* libaudiofile.lai */ = {isa = PBXFileReference; lastKnownFileType = text; path = libaudiofile.lai; sourceTree = "<group>"; };
+		30D68A65296B6798002B0CC1 /* af_vfs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = af_vfs.o; sourceTree = "<group>"; };
+		30D68A66296B6798002B0CC1 /* Setup.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Setup.o; sourceTree = "<group>"; };
+		30D68A67296B6798002B0CC1 /* debug.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = debug.o; sourceTree = "<group>"; };
+		30D68A68296B6798002B0CC1 /* AVR.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AVR.o; sourceTree = "<group>"; };
+		30D68A69296B6798002B0CC1 /* query.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = query.o; sourceTree = "<group>"; };
+		30D68A6A296B6798002B0CC1 /* AIFF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AIFF.o; sourceTree = "<group>"; };
+		30D68A6B296B6798002B0CC1 /* UUID.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = UUID.o; sourceTree = "<group>"; };
+		30D68A6C296B6798002B0CC1 /* data.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = data.o; sourceTree = "<group>"; };
+		30D68A6D296B6798002B0CC1 /* NIST.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NIST.o; sourceTree = "<group>"; };
+		30D68A6E296B6798002B0CC1 /* File.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = File.o; sourceTree = "<group>"; };
+		30D68A6F296B6798002B0CC1 /* Marker.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Marker.o; sourceTree = "<group>"; };
+		30D68A70296B6798002B0CC1 /* Instrument.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Instrument.o; sourceTree = "<group>"; };
+		30D68A71296B6798002B0CC1 /* FileHandle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FileHandle.o; sourceTree = "<group>"; };
+		30D68A72296B6798002B0CC1 /* openclose.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = openclose.o; sourceTree = "<group>"; };
+		30D68A73296B6798002B0CC1 /* compression.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = compression.o; sourceTree = "<group>"; };
+		30D68A74296B6798002B0CC1 /* VOC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = VOC.o; sourceTree = "<group>"; };
+		30D68A75296B6798002B0CC1 /* Miscellaneous.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Miscellaneous.o; sourceTree = "<group>"; };
+		30D68A76296B6798002B0CC1 /* Track.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Track.o; sourceTree = "<group>"; };
+		30D68A77296B6798002B0CC1 /* Buffer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Buffer.o; sourceTree = "<group>"; };
+		30D68A78296B6798002B0CC1 /* libaudiofile.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libaudiofile.la; sourceTree = "<group>"; };
+		30D68A79296B6798002B0CC1 /* aes.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = aes.o; sourceTree = "<group>"; };
+		30D68A7A296B6798002B0CC1 /* Loop.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Loop.o; sourceTree = "<group>"; };
+		30D68A7B296B6798002B0CC1 /* Raw.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Raw.o; sourceTree = "<group>"; };
+		30D68A7C296B6798002B0CC1 /* util.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = util.o; sourceTree = "<group>"; };
+		30D68A7D296B6798002B0CC1 /* pcm.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = pcm.o; sourceTree = "<group>"; };
+		30D68A7E296B6798002B0CC1 /* NeXT.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = NeXT.o; sourceTree = "<group>"; };
+		30D68A7F296B6798002B0CC1 /* g711.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = g711.o; sourceTree = "<group>"; };
+		30D68A80296B6798002B0CC1 /* libaudiofile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libaudiofile.dylib; sourceTree = "<group>"; };
+		30D68A81296B6798002B0CC1 /* IFF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IFF.o; sourceTree = "<group>"; };
+		30D68A82296B6798002B0CC1 /* extended.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = extended.o; sourceTree = "<group>"; };
+		30D68A83296B6798002B0CC1 /* AudioFormat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = AudioFormat.o; sourceTree = "<group>"; };
+		30D68A84296B6798002B0CC1 /* WAVE.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = WAVE.o; sourceTree = "<group>"; };
+		30D68A85296B6798002B0CC1 /* libaudiofile-symbols.expsym */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libaudiofile-symbols.expsym"; sourceTree = "<group>"; };
+		30D68A86296B6798002B0CC1 /* format.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = format.o; sourceTree = "<group>"; };
+		30D68A87296B6798002B0CC1 /* SampleVision.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = SampleVision.o; sourceTree = "<group>"; };
+		30D68A88296B6798002B0CC1 /* PacketTable.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = PacketTable.o; sourceTree = "<group>"; };
+		30D68A89296B6798002B0CC1 /* units.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = units.o; sourceTree = "<group>"; };
+		30D68A8A296B6798002B0CC1 /* CAF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CAF.o; sourceTree = "<group>"; };
+		30D68A8B296B6798002B0CC1 /* FLACFile.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FLACFile.o; sourceTree = "<group>"; };
+		30D68A8C296B6798002B0CC1 /* libaudiofile.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libaudiofile.1.dylib; sourceTree = "<group>"; };
+		30D68A8D296B6798002B0CC1 /* IRCAM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IRCAM.o; sourceTree = "<group>"; };
+		30D68A8E296B6798002B0CC1 /* PacketTable.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = PacketTable.o; sourceTree = "<group>"; };
+		30D68A8F296B6798002B0CC1 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		30D68A90296B6798002B0CC1 /* PacketTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTable.h; sourceTree = "<group>"; };
+		30D68A91296B6798002B0CC1 /* audiofile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audiofile.h; sourceTree = "<group>"; };
+		30D68A92296B6798002B0CC1 /* error.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = error.lo; sourceTree = "<group>"; };
+		30D68A93296B6798002B0CC1 /* units.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = units.lo; sourceTree = "<group>"; };
+		30D68A94296B6798002B0CC1 /* units.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = units.o; sourceTree = "<group>"; };
+		30D68A95296B6798002B0CC1 /* FLACFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLACFile.h; sourceTree = "<group>"; };
+		30D68A96296B6798002B0CC1 /* CAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAF.h; sourceTree = "<group>"; };
+		30D68A97296B6798002B0CC1 /* AudioFormat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioFormat.cpp; sourceTree = "<group>"; };
+		30D68A98296B6798002B0CC1 /* CAF.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CAF.o; sourceTree = "<group>"; };
+		30D68A99296B6798002B0CC1 /* FLACFile.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = FLACFile.o; sourceTree = "<group>"; };
+		30D68A9A296B6798002B0CC1 /* units.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = units.h; sourceTree = "<group>"; };
+		30D68A9B296B6798002B0CC1 /* pcm.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = pcm.lo; sourceTree = "<group>"; };
+		30D68A9C296B6798002B0CC1 /* IRCAM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCAM.h; sourceTree = "<group>"; };
+		30D68A9D296B6798002B0CC1 /* NIST.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = NIST.lo; sourceTree = "<group>"; };
+		30D68A9E296B6798002B0CC1 /* query.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = query.lo; sourceTree = "<group>"; };
+		30D68A9F296B6798002B0CC1 /* IRCAM.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = IRCAM.o; sourceTree = "<group>"; };
+		30D68AA0296B6798002B0CC1 /* af_vfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = af_vfs.cpp; sourceTree = "<group>"; };
+		30D68AA1296B6798002B0CC1 /* WAVE.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = WAVE.lo; sourceTree = "<group>"; };
+		30D68AA2296B6798002B0CC1 /* Raw.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Raw.lo; sourceTree = "<group>"; };
+		30D68AA5296B6992002B0CC1 /* libaudiofile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libaudiofile.dylib; path = ../../../../../usr/local/lib/libaudiofile.dylib; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* chunky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chunky; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* chunky.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = chunky.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D68AA6296B6992002B0CC1 /* libaudiofile.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* chunky */ = {
+			isa = PBXGroup;
+			children = (
+				30D68AA5296B6992002B0CC1 /* libaudiofile.dylib */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = chunky;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				30D68911296B6798002B0CC1 /* libaudiofile */,
+				309771360C737BF1000A2BFC /* chunky.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* chunky */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D68911296B6798002B0CC1 /* libaudiofile */ = {
+			isa = PBXGroup;
+			children = (
+				30D68912296B6798002B0CC1 /* units.cpp */,
+				30D68913296B6798002B0CC1 /* Loop.cpp */,
+				30D68914296B6798002B0CC1 /* PacketTable.lo */,
+				30D68915296B6798002B0CC1 /* Miscellaneous.cpp */,
+				30D68916296B6798002B0CC1 /* VOC.lo */,
+				30D68917296B6798002B0CC1 /* SampleVision.cpp */,
+				30D68918296B6798002B0CC1 /* AIFF.cpp */,
+				30D68919296B6798002B0CC1 /* error.o */,
+				30D6891A296B6798002B0CC1 /* error.h */,
+				30D6891B296B6798002B0CC1 /* Instrument.cpp */,
+				30D6891C296B6798002B0CC1 /* NeXT.cpp */,
+				30D6891D296B6798002B0CC1 /* aupv.o */,
+				30D6891E296B6798002B0CC1 /* Instrument.lo */,
+				30D6891F296B6798002B0CC1 /* AIFF.lo */,
+				30D68920296B6798002B0CC1 /* query.cpp */,
+				30D68921296B6798002B0CC1 /* af_vfs.h */,
+				30D68922296B6798002B0CC1 /* util.cpp */,
+				30D68923296B6798002B0CC1 /* af_vfs.o */,
+				30D68924296B6798002B0CC1 /* Setup.o */,
+				30D68925296B6798002B0CC1 /* debug.h */,
+				30D68926296B6798002B0CC1 /* Setup.h */,
+				30D68927296B6798002B0CC1 /* Shared.h */,
+				30D68928296B6798002B0CC1 /* debug.o */,
+				30D68929296B6798002B0CC1 /* AVR.o */,
+				30D6892A296B6798002B0CC1 /* FLACFile.lo */,
+				30D6892B296B6798002B0CC1 /* AVR.h */,
+				30D6892C296B6798002B0CC1 /* Marker.cpp */,
+				30D6892D296B6798002B0CC1 /* openclose.lo */,
+				30D6892E296B6798002B0CC1 /* Tag.h */,
+				30D6892F296B6798002B0CC1 /* UUID.lo */,
+				30D68930296B6798002B0CC1 /* Compiler.h */,
+				30D68931296B6798002B0CC1 /* format.cpp */,
+				30D68932296B6798002B0CC1 /* AIFF.h */,
+				30D68933296B6798002B0CC1 /* query.o */,
+				30D68934296B6798002B0CC1 /* AIFF.o */,
+				30D68935296B6798002B0CC1 /* byteorder.h */,
+				30D68936296B6798002B0CC1 /* data.lo */,
+				30D68937296B6798002B0CC1 /* UUID.h */,
+				30D68938296B6798002B0CC1 /* UUID.o */,
+				30D68939296B6798002B0CC1 /* aupvinternal.h */,
+				30D6893A296B6798002B0CC1 /* Features.h */,
+				30D6893B296B6798002B0CC1 /* NeXT.lo */,
+				30D6893C296B6798002B0CC1 /* aupv.lo */,
+				30D6893D296B6798002B0CC1 /* data.o */,
+				30D6893E296B6798002B0CC1 /* NIST.o */,
+				30D6893F296B6798002B0CC1 /* WAVE.cpp */,
+				30D68940296B6798002B0CC1 /* Marker.lo */,
+				30D68941296B6798002B0CC1 /* NIST.h */,
+				30D68942296B6798002B0CC1 /* Makefile */,
+				30D68943296B6798002B0CC1 /* File.o */,
+				30D68944296B6798002B0CC1 /* File.h */,
+				30D68945296B6798002B0CC1 /* g711.c */,
+				30D68946296B6798002B0CC1 /* extended.c */,
+				30D68947296B6798002B0CC1 /* File.lo */,
+				30D68948296B6798002B0CC1 /* Setup.lo */,
+				30D68949296B6798002B0CC1 /* Marker.o */,
+				30D6894A296B6798002B0CC1 /* Marker.h */,
+				30D6894B296B6798002B0CC1 /* Setup.cpp */,
+				30D6894C296B6798002B0CC1 /* FLACFile.cpp */,
+				30D6894D296B6798002B0CC1 /* debug.lo */,
+				30D6894E296B6798002B0CC1 /* IRCAM.cpp */,
+				30D6894F296B6798002B0CC1 /* Buffer.lo */,
+				30D68950296B6798002B0CC1 /* Instrument.h */,
+				30D68951296B6798002B0CC1 /* Instrument.o */,
+				30D68952296B6798002B0CC1 /* FileHandle.o */,
+				30D68953296B6798002B0CC1 /* IRCAM.lo */,
+				30D68954296B6798002B0CC1 /* FileHandle.h */,
+				30D68955296B6798002B0CC1 /* alac */,
+				30D68998296B6798002B0CC1 /* VOC.cpp */,
+				30D68999296B6798002B0CC1 /* Loop.lo */,
+				30D6899A296B6798002B0CC1 /* compression.h */,
+				30D6899B296B6798002B0CC1 /* Miscellaneous.lo */,
+				30D6899C296B6798002B0CC1 /* openclose.o */,
+				30D6899D296B6798002B0CC1 /* compression.o */,
+				30D6899E296B6798002B0CC1 /* data.cpp */,
+				30D6899F296B6798002B0CC1 /* af_vfs.lo */,
+				30D689A0296B6798002B0CC1 /* Buffer.cpp */,
+				30D689A1296B6798002B0CC1 /* VOC.o */,
+				30D689A2296B6798002B0CC1 /* compression.cpp */,
+				30D689A3296B6798002B0CC1 /* CAF.cpp */,
+				30D689A4296B6798002B0CC1 /* VOC.h */,
+				30D689A5296B6798002B0CC1 /* AVR.lo */,
+				30D689A6296B6798002B0CC1 /* Makefile.am */,
+				30D689A7296B6798002B0CC1 /* UUID.cpp */,
+				30D689A8296B6798002B0CC1 /* Track.lo */,
+				30D689A9296B6798002B0CC1 /* extended.lo */,
+				30D689AA296B6798002B0CC1 /* util.lo */,
+				30D689AB296B6798002B0CC1 /* Raw.cpp */,
+				30D689AC296B6798002B0CC1 /* Miscellaneous.o */,
+				30D689AD296B6798002B0CC1 /* aupv.c */,
+				30D689AE296B6798002B0CC1 /* Track.h */,
+				30D689AF296B6798002B0CC1 /* Buffer.h */,
+				30D689B0296B6798002B0CC1 /* Track.o */,
+				30D689B1296B6798002B0CC1 /* Buffer.o */,
+				30D689B2296B6798002B0CC1 /* aes.lo */,
+				30D689B3296B6798002B0CC1 /* compression.lo */,
+				30D689B4296B6798002B0CC1 /* NIST.cpp */,
+				30D689B5296B6798002B0CC1 /* File.cpp */,
+				30D689B6296B6798002B0CC1 /* g711.lo */,
+				30D689B7296B6798002B0CC1 /* libaudiofile.la */,
+				30D689B8296B6798002B0CC1 /* error.c */,
+				30D689B9296B6798002B0CC1 /* aes.o */,
+				30D689BA296B6798002B0CC1 /* SampleVision.lo */,
+				30D689BB296B6798002B0CC1 /* aupvlist.h */,
+				30D689BC296B6798002B0CC1 /* libaudiofile.xcodeproj */,
+				30D689BF296B6798002B0CC1 /* openclose.cpp */,
+				30D689C0296B6798002B0CC1 /* FileHandle.cpp */,
+				30D689C1296B6798002B0CC1 /* pcm.cpp */,
+				30D689C2296B6798002B0CC1 /* debug.cpp */,
+				30D689C3296B6798002B0CC1 /* IFF.lo */,
+				30D689C4296B6798002B0CC1 /* Loop.o */,
+				30D689C5296B6798002B0CC1 /* Raw.h */,
+				30D689C6296B6798002B0CC1 /* format.lo */,
+				30D689C7296B6798002B0CC1 /* Raw.o */,
+				30D689C8296B6798002B0CC1 /* util.h */,
+				30D689C9296B6798002B0CC1 /* AVR.cpp */,
+				30D689CA296B6798002B0CC1 /* util.o */,
+				30D689CB296B6798002B0CC1 /* audiofile.exports */,
+				30D689CC296B6798002B0CC1 /* Track.cpp */,
+				30D689CD296B6798002B0CC1 /* pcm.h */,
+				30D689CE296B6798002B0CC1 /* pcm.o */,
+				30D689CF296B6798002B0CC1 /* NeXT.o */,
+				30D689D0296B6798002B0CC1 /* CAF.lo */,
+				30D689D1296B6798002B0CC1 /* NeXT.h */,
+				30D689D2296B6798002B0CC1 /* g711.h */,
+				30D689D3296B6798002B0CC1 /* g711.o */,
+				30D689D4296B6798002B0CC1 /* IFF.cpp */,
+				30D689D5296B6798002B0CC1 /* IFF.o */,
+				30D689D6296B6798002B0CC1 /* extended.o */,
+				30D689D7296B6798002B0CC1 /* AudioFormat.o */,
+				30D689D8296B6798002B0CC1 /* IFF.h */,
+				30D689D9296B6798002B0CC1 /* PacketTable.cpp */,
+				30D689DA296B6798002B0CC1 /* AudioFormat.h */,
+				30D689DB296B6798002B0CC1 /* extended.h */,
+				30D689DC296B6798002B0CC1 /* FileHandle.lo */,
+				30D689DD296B6798002B0CC1 /* WAVE.o */,
+				30D689DE296B6798002B0CC1 /* WAVE.h */,
+				30D689DF296B6798002B0CC1 /* AudioFormat.lo */,
+				30D689E0296B6798002B0CC1 /* format.o */,
+				30D689E1296B6798002B0CC1 /* modules */,
+				30D68A33296B6798002B0CC1 /* .deps */,
+				30D68A5C296B6798002B0CC1 /* SampleVision.o */,
+				30D68A5D296B6798002B0CC1 /* SampleVision.h */,
+				30D68A5E296B6798002B0CC1 /* aes.cpp */,
+				30D68A5F296B6798002B0CC1 /* afinternal.h */,
+				30D68A60296B6798002B0CC1 /* .libs */,
+				30D68A8E296B6798002B0CC1 /* PacketTable.o */,
+				30D68A8F296B6798002B0CC1 /* Makefile.in */,
+				30D68A90296B6798002B0CC1 /* PacketTable.h */,
+				30D68A91296B6798002B0CC1 /* audiofile.h */,
+				30D68A92296B6798002B0CC1 /* error.lo */,
+				30D68A93296B6798002B0CC1 /* units.lo */,
+				30D68A94296B6798002B0CC1 /* units.o */,
+				30D68A95296B6798002B0CC1 /* FLACFile.h */,
+				30D68A96296B6798002B0CC1 /* CAF.h */,
+				30D68A97296B6798002B0CC1 /* AudioFormat.cpp */,
+				30D68A98296B6798002B0CC1 /* CAF.o */,
+				30D68A99296B6798002B0CC1 /* FLACFile.o */,
+				30D68A9A296B6798002B0CC1 /* units.h */,
+				30D68A9B296B6798002B0CC1 /* pcm.lo */,
+				30D68A9C296B6798002B0CC1 /* IRCAM.h */,
+				30D68A9D296B6798002B0CC1 /* NIST.lo */,
+				30D68A9E296B6798002B0CC1 /* query.lo */,
+				30D68A9F296B6798002B0CC1 /* IRCAM.o */,
+				30D68AA0296B6798002B0CC1 /* af_vfs.cpp */,
+				30D68AA1296B6798002B0CC1 /* WAVE.lo */,
+				30D68AA2296B6798002B0CC1 /* Raw.lo */,
+			);
+			name = libaudiofile;
+			path = "../audiofile-0.3.6/libaudiofile";
+			sourceTree = "<group>";
+		};
+		30D68955296B6798002B0CC1 /* alac */ = {
+			isa = PBXGroup;
+			children = (
+				30D68956296B6798002B0CC1 /* EndianPortable.c */,
+				30D68957296B6798002B0CC1 /* ag_dec.lo */,
+				30D68958296B6798002B0CC1 /* ALACBitUtilities.c */,
+				30D68959296B6798002B0CC1 /* EndianPortable.lo */,
+				30D6895A296B6798002B0CC1 /* dp_dec.o */,
+				30D6895B296B6798002B0CC1 /* dplib.h */,
+				30D6895C296B6798002B0CC1 /* ag_dec.o */,
+				30D6895D296B6798002B0CC1 /* matrix_enc.lo */,
+				30D6895E296B6798002B0CC1 /* matrix_dec.c */,
+				30D6895F296B6798002B0CC1 /* ALACDecoder.cpp */,
+				30D68960296B6798002B0CC1 /* ag_enc.o */,
+				30D68961296B6798002B0CC1 /* matrix_enc.c */,
+				30D68962296B6798002B0CC1 /* Makefile */,
+				30D68963296B6798002B0CC1 /* dp_enc.o */,
+				30D68964296B6798002B0CC1 /* dp_dec.lo */,
+				30D68965296B6798002B0CC1 /* ALACEncoder.h */,
+				30D68966296B6798002B0CC1 /* ALACEncoder.o */,
+				30D68967296B6798002B0CC1 /* ALACEncoder.cpp */,
+				30D68968296B6798002B0CC1 /* ALACBitUtilities.o */,
+				30D68969296B6798002B0CC1 /* ALACBitUtilities.h */,
+				30D6896A296B6798002B0CC1 /* Makefile.am */,
+				30D6896B296B6798002B0CC1 /* ALACEncoder.lo */,
+				30D6896C296B6798002B0CC1 /* aglib.h */,
+				30D6896D296B6798002B0CC1 /* EndianPortable.h */,
+				30D6896E296B6798002B0CC1 /* EndianPortable.o */,
+				30D6896F296B6798002B0CC1 /* ag_dec.c */,
+				30D68970296B6798002B0CC1 /* matrix_dec.o */,
+				30D68971296B6798002B0CC1 /* dp_dec.c */,
+				30D68972296B6798002B0CC1 /* ALACDecoder.h */,
+				30D68973296B6798002B0CC1 /* ALACDecoder.o */,
+				30D68974296B6798002B0CC1 /* dp_enc.lo */,
+				30D68975296B6798002B0CC1 /* ALACAudioTypes.h */,
+				30D68976296B6798002B0CC1 /* dp_enc.c */,
+				30D68977296B6798002B0CC1 /* ag_enc.c */,
+				30D68978296B6798002B0CC1 /* matrix_dec.lo */,
+				30D68979296B6798002B0CC1 /* matrix_enc.o */,
+				30D6897A296B6798002B0CC1 /* .deps */,
+				30D68985296B6798002B0CC1 /* matrixlib.h */,
+				30D68986296B6798002B0CC1 /* libalac.la */,
+				30D68987296B6798002B0CC1 /* .libs */,
+				30D68994296B6798002B0CC1 /* Makefile.in */,
+				30D68995296B6798002B0CC1 /* ag_enc.lo */,
+				30D68996296B6798002B0CC1 /* ALACBitUtilities.lo */,
+				30D68997296B6798002B0CC1 /* ALACDecoder.lo */,
+			);
+			path = alac;
+			sourceTree = "<group>";
+		};
+		30D6897A296B6798002B0CC1 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				30D6897B296B6798002B0CC1 /* ALACBitUtilities.Plo */,
+				30D6897C296B6798002B0CC1 /* ALACDecoder.Plo */,
+				30D6897D296B6798002B0CC1 /* dp_dec.Plo */,
+				30D6897E296B6798002B0CC1 /* dp_enc.Plo */,
+				30D6897F296B6798002B0CC1 /* ALACEncoder.Plo */,
+				30D68980296B6798002B0CC1 /* EndianPortable.Plo */,
+				30D68981296B6798002B0CC1 /* ag_enc.Plo */,
+				30D68982296B6798002B0CC1 /* ag_dec.Plo */,
+				30D68983296B6798002B0CC1 /* matrix_dec.Plo */,
+				30D68984296B6798002B0CC1 /* matrix_enc.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		30D68987296B6798002B0CC1 /* .libs */ = {
+			isa = PBXGroup;
+			children = (
+				30D68988296B6798002B0CC1 /* dp_dec.o */,
+				30D68989296B6798002B0CC1 /* ag_dec.o */,
+				30D6898A296B6798002B0CC1 /* ag_enc.o */,
+				30D6898B296B6798002B0CC1 /* libalac.a */,
+				30D6898C296B6798002B0CC1 /* dp_enc.o */,
+				30D6898D296B6798002B0CC1 /* ALACEncoder.o */,
+				30D6898E296B6798002B0CC1 /* ALACBitUtilities.o */,
+				30D6898F296B6798002B0CC1 /* EndianPortable.o */,
+				30D68990296B6798002B0CC1 /* matrix_dec.o */,
+				30D68991296B6798002B0CC1 /* ALACDecoder.o */,
+				30D68992296B6798002B0CC1 /* matrix_enc.o */,
+				30D68993296B6798002B0CC1 /* libalac.la */,
+			);
+			path = .libs;
+			sourceTree = "<group>";
+		};
+		30D689BD296B6798002B0CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D689E1296B6798002B0CC1 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				30D689E2296B6798002B0CC1 /* Module.lo */,
+				30D689E3296B6798002B0CC1 /* RebufferModule.h */,
+				30D689E4296B6798002B0CC1 /* RebufferModule.o */,
+				30D689E5296B6798002B0CC1 /* ModuleState.lo */,
+				30D689E6296B6798002B0CC1 /* ModuleState.h */,
+				30D689E7296B6798002B0CC1 /* ModuleState.o */,
+				30D689E8296B6798002B0CC1 /* G711.cpp */,
+				30D689E9296B6798002B0CC1 /* ModuleState.cpp */,
+				30D689EA296B6798002B0CC1 /* FileModule.h */,
+				30D689EB296B6798002B0CC1 /* FileModule.o */,
+				30D689EC296B6798002B0CC1 /* SimpleModule.cpp */,
+				30D689ED296B6798002B0CC1 /* MSADPCM.cpp */,
+				30D689EE296B6798002B0CC1 /* ALAC.h */,
+				30D689EF296B6798002B0CC1 /* ALAC.o */,
+				30D689F0296B6798002B0CC1 /* UT_RebufferModule.cpp */,
+				30D689F1296B6798002B0CC1 /* ALAC.cpp */,
+				30D689F2296B6798002B0CC1 /* Module.cpp */,
+				30D689F3296B6798002B0CC1 /* FLAC.o */,
+				30D689F4296B6798002B0CC1 /* Makefile */,
+				30D689F5296B6798002B0CC1 /* FLAC.h */,
+				30D689F6296B6798002B0CC1 /* BlockCodec.cpp */,
+				30D689F7296B6798002B0CC1 /* RebufferModule.cpp */,
+				30D689F8296B6798002B0CC1 /* FileModule.lo */,
+				30D689F9296B6798002B0CC1 /* MSADPCM.lo */,
+				30D689FA296B6798002B0CC1 /* FileModule.cpp */,
+				30D689FB296B6798002B0CC1 /* Makefile.am */,
+				30D689FC296B6798002B0CC1 /* IMA.lo */,
+				30D689FD296B6798002B0CC1 /* G711.lo */,
+				30D689FE296B6798002B0CC1 /* IMA.cpp */,
+				30D689FF296B6798002B0CC1 /* libmodules.la */,
+				30D68A00296B6798002B0CC1 /* PCM.cpp */,
+				30D68A01296B6798002B0CC1 /* MSADPCM.o */,
+				30D68A02296B6798002B0CC1 /* MSADPCM.h */,
+				30D68A03296B6798002B0CC1 /* ALAC.lo */,
+				30D68A04296B6798002B0CC1 /* RebufferModule.lo */,
+				30D68A05296B6798002B0CC1 /* BlockCodec.o */,
+				30D68A06296B6798002B0CC1 /* BlockCodec.h */,
+				30D68A07296B6798002B0CC1 /* PCM.h */,
+				30D68A08296B6798002B0CC1 /* PCM.o */,
+				30D68A09296B6798002B0CC1 /* FLAC.lo */,
+				30D68A0A296B6798002B0CC1 /* G711.h */,
+				30D68A0B296B6798002B0CC1 /* G711.o */,
+				30D68A0C296B6798002B0CC1 /* SimpleModule.lo */,
+				30D68A0D296B6798002B0CC1 /* Module.h */,
+				30D68A0E296B6798002B0CC1 /* Module.o */,
+				30D68A0F296B6798002B0CC1 /* .deps */,
+				30D68A1C296B6798002B0CC1 /* .libs */,
+				30D68A2B296B6798002B0CC1 /* Makefile.in */,
+				30D68A2C296B6798002B0CC1 /* IMA.o */,
+				30D68A2D296B6798002B0CC1 /* BlockCodec.lo */,
+				30D68A2E296B6798002B0CC1 /* IMA.h */,
+				30D68A2F296B6798002B0CC1 /* SimpleModule.o */,
+				30D68A30296B6798002B0CC1 /* SimpleModule.h */,
+				30D68A31296B6798002B0CC1 /* PCM.lo */,
+				30D68A32296B6798002B0CC1 /* FLAC.cpp */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		30D68A0F296B6798002B0CC1 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				30D68A10296B6798002B0CC1 /* ALAC.Plo */,
+				30D68A11296B6798002B0CC1 /* SimpleModule.Plo */,
+				30D68A12296B6798002B0CC1 /* MSADPCM.Plo */,
+				30D68A13296B6798002B0CC1 /* G711.Plo */,
+				30D68A14296B6798002B0CC1 /* ModuleState.Plo */,
+				30D68A15296B6798002B0CC1 /* FileModule.Plo */,
+				30D68A16296B6798002B0CC1 /* RebufferModule.Plo */,
+				30D68A17296B6798002B0CC1 /* BlockCodec.Plo */,
+				30D68A18296B6798002B0CC1 /* Module.Plo */,
+				30D68A19296B6798002B0CC1 /* PCM.Plo */,
+				30D68A1A296B6798002B0CC1 /* IMA.Plo */,
+				30D68A1B296B6798002B0CC1 /* FLAC.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		30D68A1C296B6798002B0CC1 /* .libs */ = {
+			isa = PBXGroup;
+			children = (
+				30D68A1D296B6798002B0CC1 /* RebufferModule.o */,
+				30D68A1E296B6798002B0CC1 /* ModuleState.o */,
+				30D68A1F296B6798002B0CC1 /* FileModule.o */,
+				30D68A20296B6798002B0CC1 /* ALAC.o */,
+				30D68A21296B6798002B0CC1 /* FLAC.o */,
+				30D68A22296B6798002B0CC1 /* libmodules.la */,
+				30D68A23296B6798002B0CC1 /* MSADPCM.o */,
+				30D68A24296B6798002B0CC1 /* BlockCodec.o */,
+				30D68A25296B6798002B0CC1 /* libmodules.a */,
+				30D68A26296B6798002B0CC1 /* PCM.o */,
+				30D68A27296B6798002B0CC1 /* G711.o */,
+				30D68A28296B6798002B0CC1 /* Module.o */,
+				30D68A29296B6798002B0CC1 /* IMA.o */,
+				30D68A2A296B6798002B0CC1 /* SimpleModule.o */,
+			);
+			path = .libs;
+			sourceTree = "<group>";
+		};
+		30D68A33296B6798002B0CC1 /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				30D68A34296B6798002B0CC1 /* format.Plo */,
+				30D68A35296B6798002B0CC1 /* Marker.Plo */,
+				30D68A36296B6798002B0CC1 /* extended.Plo */,
+				30D68A37296B6798002B0CC1 /* Instrument.Plo */,
+				30D68A38296B6798002B0CC1 /* SampleVision.Plo */,
+				30D68A39296B6798002B0CC1 /* AIFF.Plo */,
+				30D68A3A296B6798002B0CC1 /* units.Plo */,
+				30D68A3B296B6798002B0CC1 /* Loop.Plo */,
+				30D68A3C296B6798002B0CC1 /* Miscellaneous.Plo */,
+				30D68A3D296B6798002B0CC1 /* util.Plo */,
+				30D68A3E296B6798002B0CC1 /* query.Plo */,
+				30D68A3F296B6798002B0CC1 /* g711.Plo */,
+				30D68A40296B6798002B0CC1 /* NeXT.Plo */,
+				30D68A41296B6798002B0CC1 /* UnitTests-UT_RebufferModule.Po */,
+				30D68A42296B6798002B0CC1 /* FLACFile.Plo */,
+				30D68A43296B6798002B0CC1 /* IRCAM.Plo */,
+				30D68A44296B6798002B0CC1 /* Setup.Plo */,
+				30D68A45296B6798002B0CC1 /* compression.Plo */,
+				30D68A46296B6798002B0CC1 /* CAF.Plo */,
+				30D68A47296B6798002B0CC1 /* data.Plo */,
+				30D68A48296B6798002B0CC1 /* Buffer.Plo */,
+				30D68A49296B6798002B0CC1 /* VOC.Plo */,
+				30D68A4A296B6798002B0CC1 /* WAVE.Plo */,
+				30D68A4B296B6798002B0CC1 /* error.Plo */,
+				30D68A4C296B6798002B0CC1 /* openclose.Plo */,
+				30D68A4D296B6798002B0CC1 /* FileHandle.Plo */,
+				30D68A4E296B6798002B0CC1 /* debug.Plo */,
+				30D68A4F296B6798002B0CC1 /* pcm.Plo */,
+				30D68A50296B6798002B0CC1 /* aupv.Plo */,
+				30D68A51296B6798002B0CC1 /* Track.Plo */,
+				30D68A52296B6798002B0CC1 /* AVR.Plo */,
+				30D68A53296B6798002B0CC1 /* Raw.Plo */,
+				30D68A54296B6798002B0CC1 /* UUID.Plo */,
+				30D68A55296B6798002B0CC1 /* File.Plo */,
+				30D68A56296B6798002B0CC1 /* NIST.Plo */,
+				30D68A57296B6798002B0CC1 /* AudioFormat.Plo */,
+				30D68A58296B6798002B0CC1 /* aes.Plo */,
+				30D68A59296B6798002B0CC1 /* af_vfs.Plo */,
+				30D68A5A296B6798002B0CC1 /* PacketTable.Plo */,
+				30D68A5B296B6798002B0CC1 /* IFF.Plo */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		30D68A60296B6798002B0CC1 /* .libs */ = {
+			isa = PBXGroup;
+			children = (
+				30D68A61296B6798002B0CC1 /* libaudiofile.a */,
+				30D68A62296B6798002B0CC1 /* error.o */,
+				30D68A63296B6798002B0CC1 /* aupv.o */,
+				30D68A64296B6798002B0CC1 /* libaudiofile.lai */,
+				30D68A65296B6798002B0CC1 /* af_vfs.o */,
+				30D68A66296B6798002B0CC1 /* Setup.o */,
+				30D68A67296B6798002B0CC1 /* debug.o */,
+				30D68A68296B6798002B0CC1 /* AVR.o */,
+				30D68A69296B6798002B0CC1 /* query.o */,
+				30D68A6A296B6798002B0CC1 /* AIFF.o */,
+				30D68A6B296B6798002B0CC1 /* UUID.o */,
+				30D68A6C296B6798002B0CC1 /* data.o */,
+				30D68A6D296B6798002B0CC1 /* NIST.o */,
+				30D68A6E296B6798002B0CC1 /* File.o */,
+				30D68A6F296B6798002B0CC1 /* Marker.o */,
+				30D68A70296B6798002B0CC1 /* Instrument.o */,
+				30D68A71296B6798002B0CC1 /* FileHandle.o */,
+				30D68A72296B6798002B0CC1 /* openclose.o */,
+				30D68A73296B6798002B0CC1 /* compression.o */,
+				30D68A74296B6798002B0CC1 /* VOC.o */,
+				30D68A75296B6798002B0CC1 /* Miscellaneous.o */,
+				30D68A76296B6798002B0CC1 /* Track.o */,
+				30D68A77296B6798002B0CC1 /* Buffer.o */,
+				30D68A78296B6798002B0CC1 /* libaudiofile.la */,
+				30D68A79296B6798002B0CC1 /* aes.o */,
+				30D68A7A296B6798002B0CC1 /* Loop.o */,
+				30D68A7B296B6798002B0CC1 /* Raw.o */,
+				30D68A7C296B6798002B0CC1 /* util.o */,
+				30D68A7D296B6798002B0CC1 /* pcm.o */,
+				30D68A7E296B6798002B0CC1 /* NeXT.o */,
+				30D68A7F296B6798002B0CC1 /* g711.o */,
+				30D68A80296B6798002B0CC1 /* libaudiofile.dylib */,
+				30D68A81296B6798002B0CC1 /* IFF.o */,
+				30D68A82296B6798002B0CC1 /* extended.o */,
+				30D68A83296B6798002B0CC1 /* AudioFormat.o */,
+				30D68A84296B6798002B0CC1 /* WAVE.o */,
+				30D68A85296B6798002B0CC1 /* libaudiofile-symbols.expsym */,
+				30D68A86296B6798002B0CC1 /* format.o */,
+				30D68A87296B6798002B0CC1 /* SampleVision.o */,
+				30D68A88296B6798002B0CC1 /* PacketTable.o */,
+				30D68A89296B6798002B0CC1 /* units.o */,
+				30D68A8A296B6798002B0CC1 /* CAF.o */,
+				30D68A8B296B6798002B0CC1 /* FLACFile.o */,
+				30D68A8C296B6798002B0CC1 /* libaudiofile.1.dylib */,
+				30D68A8D296B6798002B0CC1 /* IRCAM.o */,
+			);
+			path = .libs;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* chunky.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* chunky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "chunky" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chunky;
+			productInstallPath = "$(HOME)/bin";
+			productName = chunky;
+			productReference = 8DD76FB20486AB0100D96B5E /* chunky */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "chunky" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* chunky */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 30D689BD296B6798002B0CC1 /* Products */;
+					ProjectRef = 30D689BC296B6798002B0CC1 /* libaudiofile.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* chunky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309771370C737BF1000A2BFC /* chunky.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../audiofile-0.3.6/libaudiofile\"";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = chunky;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* ReleaseUB */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../audiofile-0.3.6/libaudiofile\"";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = chunky;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = ReleaseUB;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* ReleaseUB */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				VALID_ARCHS = x86_64;
+			};
+			name = ReleaseUB;
+		};
+		3045E3DB0CFDD756006BEB96 /* ReleaseIntel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../audiofile-0.3.6/libaudiofile\"";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = chunky;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = ReleaseIntel;
+		};
+		3045E3DC0CFDD756006BEB96 /* ReleaseIntel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				VALID_ARCHS = x86_64;
+			};
+			name = ReleaseIntel;
+		};
+		30775C0123D081A600D41838 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Debug copy";
+		};
+		30775C0223D081A600D41838 /* Debug copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../audiofile-0.3.6/libaudiofile\"";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = chunky;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = "Debug copy";
+		};
+		30995EEE23D07ED0000285B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		30995EEF23D07ED0000285B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../audiofile-0.3.6/libaudiofile\"";
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = chunky;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "chunky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				30775C0223D081A600D41838 /* Debug copy */,
+				1DEB928708733DD80010E9CD /* ReleaseUB */,
+				3045E3DB0CFDD756006BEB96 /* ReleaseIntel */,
+				30995EEF23D07ED0000285B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug copy";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "chunky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				30775C0123D081A600D41838 /* Debug copy */,
+				1DEB928B08733DD80010E9CD /* ReleaseUB */,
+				3045E3DC0CFDD756006BEB96 /* ReleaseIntel */,
+				30995EEE23D07ED0000285B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug copy";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
